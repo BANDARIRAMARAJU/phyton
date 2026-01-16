@@ -1,0 +1,11 @@
+class Student:
+    def __init__(self,x,y,z):
+        self.name=x
+        self.rollno=y
+        self.marks=z
+    def display(self):
+        print("Student Name:{}\n Rollno:{} \n Marks:{}".format(self.name,self.rollno,self.marks))
+s1=Student("shiva",101,80)
+s1.display()
+s2=Student("ram",102,100)
+s2.display()
